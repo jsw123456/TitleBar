@@ -4,9 +4,7 @@
         titlebar.setTitleColor(Color.WHITE); //设置标题颜色
         titlebar.setTitleSize(15); //设置标题字体大小
         titlebar.setLeftDrawImg(R.mipmap.ic_title_back); //设置左侧图标
-        
         titlebar.setLeftDrawImg(R.mipmap.ic_update_head); //设置右侧图标
-        
         titlebar.setRightMenu("菜单"); //设置右侧菜单文字
         titlebar.setRightTvSize(12);  //设置右侧菜单字体大小
         titlebar.setRightTvColor(Color.GREEN); //设置右侧菜单颜色
@@ -31,9 +29,8 @@
             public void rightImgClick(View v) {
                
             }
-        });
-        
-        xml中使用
+        });
+        xml中使用
         app:titleText="标题"      //设置标题
         app:titleColor="#fff"   //标题颜色
         app:titleTextSize="15sp"     //标题字体大小
