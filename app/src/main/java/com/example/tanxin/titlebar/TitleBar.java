@@ -195,6 +195,16 @@ public class TitleBar extends RelativeLayout {
         tv_right.setTextColor(resid);
     }
 
+    /**
+     * 设置左侧图片
+     * @auther TanXin
+     * @email meet_tanxin@outlook.com
+     * created at 2017/3/25 16:31
+     * */
+    public void setRightDrawImg(int resid){
+        img_right.setImageResource(resid);
+    }
+
     public interface TitleBarLeftListener{
         void leftClick(View v);   //左侧按钮点击事件
     }
